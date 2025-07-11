@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+header,
+footer {
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 1rem 0rem;
+}
+nav {
+  background: #007bff;
+  text-align: center;
+  padding: 1rem 0;
+}
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 2rem 1rem;
+}
+.section {
+  margin-bottom: 4rem;
+}
+.section h2 {
+  margin-bottom: 1rem;
+  color: #0056b3;
+}
+.section p {
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}
+.btn-scroll {
+  display: inline-block;
+  background: #28a745;
+  color: white;
+  padding: 0.7rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+.video-player {
+  margin-top: 2rem;
+  text-align: center;
+}
+/* make video player responsive */
+#video-player {
+  width: 100%;
+  max-width: 640px;
+  margin: auto;
+}
+
+.video-player iframe {
+  width: 100%;
+  max-width: 640px;
+  height: 360px;
+  border: none;
+}
+/* .related-videos {
+  margin-top: 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.related-videos button {
+  background: white;
+  border: 1px solid #ccc;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.related-videos button:hover {
+  background: #007bff;
+  color: white;
+} */
+@media (max-width: 600px) {
+  .video-player iframe {
+    height: 200px;
+  }
+  nav a {
+    margin: 5px;
+    font-size: 12px;
+  }
+}
+
+.next-video-btn {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  background: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  animation: pulse 1.2s infinite;
+}
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.6);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+}
+
+.scroll-down-hint {
+  text-align: center;
+  color: white;
+  background: red;
+  font-weight: bold;
+  padding: 0.8rem 1.2rem;
+  margin: 2rem auto;
+  width: fit-content;
+  cursor: pointer;
+  border-radius: 8px;
+  animation: pulse-scroll 1.5s infinite;
+}
+
+@keyframes pulse-scroll {
+  0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.5); }
+  70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(255, 0, 0, 0); }
+  100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(255, 0, 0, 0); }
+}
+
