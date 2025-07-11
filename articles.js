@@ -159,88 +159,88 @@ const articles = [
       },
     ],
   },
-  {
-    id: 3,
-    title: "Understanding Credit Scores and How to Improve Them",
-    slug: "understanding-credit-scores",
-    summary:
-      "Learn what a credit score is, how it affects your financial life, and practical steps to raise it.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Your credit score plays a key role in your financial health. Whether you're applying for a loan, renting an apartment, or even getting a job, your credit score can affect your opportunities.",
-          "Understanding what impacts your score and how to improve it can help you unlock better financial options.",
-        ],
-      },
-      {
-        heading: "What is a Credit Score?",
-        paragraphs: [
-          "A credit score is a three-digit number that represents your creditworthiness. It is based on your credit history and helps lenders determine how risky it is to lend you money.",
-          "In most systems, scores range from 300 to 850. The higher the score, the better your chances of getting approved for loans and credit at lower interest rates.",
-        ],
-      },
-      {
-        heading: "What Affects Your Credit Score?",
-        bulletPoints: [
-          "Payment history – whether you pay bills on time",
-          "Credit utilization – how much of your credit you're using",
-          "Length of credit history – how long your accounts have been active",
-          "New credit – recent applications for credit",
-          "Credit mix – different types of credit like cards, loans, etc.",
-        ],
-      },
-      {
-        heading: "Why It Matters",
-        paragraphs: [
-          "A good credit score can help you get lower interest rates, higher credit limits, and better loan terms.",
-          "A low score can lead to higher costs, loan rejections, or needing a co-signer for major financial decisions.",
-        ],
-      },
-      {
-        heading: "How to Improve Your Credit Score",
-        subsections: [
-          {
-            title: "1. Pay Bills On Time",
-            paragraph:
-              "Late payments can seriously damage your score. Set reminders or automate your payments to stay consistent.",
-          },
-          {
-            title: "2. Keep Credit Utilization Low",
-            paragraph:
-              "Try to use less than 30% of your available credit. For example, if your limit is $10,000, aim to use less than $3,000.",
-          },
-          {
-            title: "3. Don’t Close Old Accounts",
-            paragraph:
-              "Keeping older accounts open (if they have no fees) helps your credit history length and can support your score.",
-          },
-          {
-            title: "4. Avoid Too Many New Credit Applications",
-            paragraph:
-              "Each hard inquiry can slightly lower your score. Only apply for new credit when necessary.",
-          },
-          {
-            title: "5. Review Your Credit Report Regularly",
-            paragraph:
-              "You’re entitled to a free credit report every year. Check it for errors or fraud and dispute anything incorrect.",
-          },
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Consider using a secured credit card if you're rebuilding credit — it helps show positive payment behavior.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Your credit score doesn't have to be a mystery. With good habits and a little patience, you can build and maintain a strong score.",
-          "Start now, stay consistent, and you’ll open the door to more financial freedom in the future.",
-        ],
-      },
-    ],
-  },
+  // {
+  //   id: 3,
+  //   title: "Understanding Credit Scores and How to Improve Them",
+  //   slug: "understanding-credit-scores",
+  //   summary:
+  //     "Learn what a credit score is, how it affects your financial life, and practical steps to raise it.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Your credit score plays a key role in your financial health. Whether you're applying for a loan, renting an apartment, or even getting a job, your credit score can affect your opportunities.",
+  //         "Understanding what impacts your score and how to improve it can help you unlock better financial options.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "What is a Credit Score?",
+  //       paragraphs: [
+  //         "A credit score is a three-digit number that represents your creditworthiness. It is based on your credit history and helps lenders determine how risky it is to lend you money.",
+  //         "In most systems, scores range from 300 to 850. The higher the score, the better your chances of getting approved for loans and credit at lower interest rates.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "What Affects Your Credit Score?",
+  //       bulletPoints: [
+  //         "Payment history – whether you pay bills on time",
+  //         "Credit utilization – how much of your credit you're using",
+  //         "Length of credit history – how long your accounts have been active",
+  //         "New credit – recent applications for credit",
+  //         "Credit mix – different types of credit like cards, loans, etc.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why It Matters",
+  //       paragraphs: [
+  //         "A good credit score can help you get lower interest rates, higher credit limits, and better loan terms.",
+  //         "A low score can lead to higher costs, loan rejections, or needing a co-signer for major financial decisions.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "How to Improve Your Credit Score",
+  //       subsections: [
+  //         {
+  //           title: "1. Pay Bills On Time",
+  //           paragraph:
+  //             "Late payments can seriously damage your score. Set reminders or automate your payments to stay consistent.",
+  //         },
+  //         {
+  //           title: "2. Keep Credit Utilization Low",
+  //           paragraph:
+  //             "Try to use less than 30% of your available credit. For example, if your limit is $10,000, aim to use less than $3,000.",
+  //         },
+  //         {
+  //           title: "3. Don’t Close Old Accounts",
+  //           paragraph:
+  //             "Keeping older accounts open (if they have no fees) helps your credit history length and can support your score.",
+  //         },
+  //         {
+  //           title: "4. Avoid Too Many New Credit Applications",
+  //           paragraph:
+  //             "Each hard inquiry can slightly lower your score. Only apply for new credit when necessary.",
+  //         },
+  //         {
+  //           title: "5. Review Your Credit Report Regularly",
+  //           paragraph:
+  //             "You’re entitled to a free credit report every year. Check it for errors or fraud and dispute anything incorrect.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Consider using a secured credit card if you're rebuilding credit — it helps show positive payment behavior.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Your credit score doesn't have to be a mystery. With good habits and a little patience, you can build and maintain a strong score.",
+  //         "Start now, stay consistent, and you’ll open the door to more financial freedom in the future.",
+  //       ],
+  //     },
+  //   ],
+  // },
   // {
   //   id: 4,
   //   title: "The Basics of Investing in the Stock Market",
