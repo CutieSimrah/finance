@@ -241,566 +241,566 @@ const articles = [
       },
     ],
   },
-  {
-    id: 4,
-    title: "The Basics of Investing in the Stock Market",
-    slug: "investing-in-stock-market",
-    summary:
-      "A beginner's guide to understanding the stock market, how it works, and how to start investing safely.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "The stock market can seem intimidating at first, but it’s one of the most effective ways to build wealth over time.",
-          "By learning the basics, you can make smarter investment choices and grow your money steadily.",
-        ],
-      },
-      {
-        heading: "What is the Stock Market?",
-        paragraphs: [
-          "The stock market is where people buy and sell shares of companies. When you invest in a stock, you’re buying a piece of that company.",
-          "As the company grows and earns profits, the value of your stock can increase, and you may also earn dividends (a share of the profits).",
-        ],
-      },
-      {
-        heading: "Why Invest in Stocks?",
-        bulletPoints: [
-          "Potential for long-term growth",
-          "Outpaces inflation over time",
-          "Earn dividends for passive income",
-          "Build wealth for retirement or future goals",
-        ],
-      },
-      {
-        heading: "Risks to Know",
-        paragraphs: [
-          "Stock prices can go up and down daily. It's normal to see short-term changes, but the market generally grows over the long term.",
-          "Investing always involves risk, so it’s important to diversify and avoid emotional decisions.",
-        ],
-      },
-      {
-        heading: "How to Start Investing",
-        subsections: [
-          {
-            title: "1. Learn the Basics",
-            paragraph:
-              "Understand terms like stocks, dividends, mutual funds, ETFs, and risk tolerance. This will help you make informed decisions.",
-          },
-          {
-            title: "2. Open a Brokerage Account",
-            paragraph:
-              "Choose a reputable platform (like Fidelity, Robinhood, or Zerodha) where you can buy and sell stocks easily.",
-          },
-          {
-            title: "3. Start Small",
-            paragraph:
-              "You don’t need a lot of money to begin. Start with small amounts and increase gradually as you learn.",
-          },
-          {
-            title: "4. Diversify Your Portfolio",
-            paragraph:
-              "Don't put all your money into one stock. Spread your investments across different sectors and types of assets.",
-          },
-          {
-            title: "5. Think Long-Term",
-            paragraph:
-              "Avoid panic selling during market drops. Stay invested for years, not weeks — long-term investing tends to be more profitable.",
-          },
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Consider investing through index funds or ETFs if you want a low-cost and diversified way to enter the stock market.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Investing in the stock market is a journey, not a sprint. With time, knowledge, and discipline, you can build a strong financial future.",
-          "Start today with what you have — and let your money grow while you focus on learning more.",
-        ],
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "How to Set Financial Goals and Achieve Them",
-    slug: "set-financial-goals",
-    summary:
-      "Learn how to set smart financial goals and create a clear plan to reach them step by step.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Having clear financial goals gives your money a purpose. Whether it’s saving for a car, a home, or early retirement — goals help you stay focused and motivated.",
-          "In this article, you’ll learn how to define your financial goals and take actionable steps to achieve them.",
-        ],
-      },
-      {
-        heading: "Why Setting Goals Matters",
-        bulletPoints: [
-          "Helps prioritize spending",
-          "Keeps you motivated",
-          "Provides a sense of direction",
-          "Makes it easier to track progress",
-        ],
-      },
-      {
-        heading: "Types of Financial Goals",
-        paragraphs: [
-          "Short-term goals (within 1 year): e.g., building an emergency fund, paying off a credit card.",
-          "Medium-term goals (1–5 years): e.g., buying a car, saving for a wedding.",
-          "Long-term goals (5+ years): e.g., buying a house, retirement savings, children’s education.",
-        ],
-      },
-      {
-        heading: "How to Set SMART Financial Goals",
-        subsections: [
-          {
-            title: "1. Specific",
-            paragraph:
-              "Define exactly what you want to achieve. For example, instead of 'I want to save', say 'I want to save $5,000 for a new laptop.'",
-          },
-          {
-            title: "2. Measurable",
-            paragraph:
-              "Track your progress. Break your goal into monthly or weekly targets so you can monitor success.",
-          },
-          {
-            title: "3. Achievable",
-            paragraph:
-              "Make sure your goal is realistic based on your current income and expenses.",
-          },
-          {
-            title: "4. Relevant",
-            paragraph:
-              "Your goal should align with your personal values and priorities.",
-          },
-          {
-            title: "5. Time-bound",
-            paragraph:
-              "Set a deadline. Goals without a timeline are easy to postpone.",
-          },
-        ],
-      },
-      {
-        heading: "Steps to Achieve Your Financial Goals",
-        subsections: [
-          {
-            title: "1. Write Your Goals Down",
-            paragraph:
-              "Documenting your goals makes them real and reminds you to stay committed.",
-          },
-          {
-            title: "2. Create a Budget",
-            paragraph:
-              "Plan your income and expenses around your goals. Make saving a part of your monthly plan.",
-          },
-          {
-            title: "3. Automate Savings",
-            paragraph:
-              "Set up automatic transfers to a dedicated savings account to avoid temptation.",
-          },
-          {
-            title: "4. Review Progress Regularly",
-            paragraph:
-              "Check your progress monthly and adjust if needed. Celebrate small wins.",
-          },
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Use visual tools like goal trackers or saving jars to stay motivated and track your progress in real time.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Setting financial goals gives your money meaning and direction. With a clear plan, you’re more likely to succeed and feel in control.",
-          "Start with one small goal today — the results will build your confidence to tackle bigger ones tomorrow.",
-        ],
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Managing Debt: Strategies for Paying Off Loans",
-    slug: "managing-debt",
-    summary:
-      "Learn effective strategies to reduce and eliminate debt, and take control of your financial future.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Debt can feel overwhelming, but with the right strategy, you can take back control and start your journey to financial freedom.",
-          "In this guide, we’ll break down simple and effective ways to manage and pay off your debt — whether it’s a student loan, credit card, or personal loan.",
-        ],
-      },
-      {
-        heading: "Why It’s Important to Manage Debt",
-        bulletPoints: [
-          "Reduces financial stress",
-          "Improves credit score",
-          "Saves money on interest",
-          "Gives you freedom to invest in the future",
-        ],
-      },
-      {
-        heading: "Common Types of Debt",
-        paragraphs: [
-          "Credit card debt: High-interest revolving balances that can quickly grow.",
-          "Student loans: Education-related loans with fixed or variable interest rates.",
-          "Personal loans: Unsecured loans used for various personal expenses.",
-          "Auto or home loans: Secured loans with specific terms and collateral.",
-        ],
-      },
-      {
-        heading: "Effective Debt Management Strategies",
-        subsections: [
-          {
-            title: "1. List All Your Debts",
-            paragraph:
-              "Start by writing down every debt you owe, including total balance, interest rate, and minimum monthly payment.",
-          },
-          {
-            title: "2. Create a Monthly Debt Repayment Budget",
-            paragraph:
-              "Allocate a portion of your income strictly for debt payments. Cut unnecessary expenses to free up more money for repayments.",
-          },
-          {
-            title: "3. Use the Snowball Method",
-            paragraph:
-              "Pay off the smallest debt first while making minimum payments on others. This builds momentum and motivation as you eliminate smaller balances.",
-          },
-          {
-            title: "4. Try the Avalanche Method",
-            paragraph:
-              "Focus on debts with the highest interest rates first. This approach saves more money in the long run.",
-          },
-          {
-            title: "5. Consider Debt Consolidation",
-            paragraph:
-              "If you have multiple loans, consolidating them into one loan with a lower interest rate can simplify payments and reduce costs.",
-          },
-          {
-            title: "6. Avoid New Debt",
-            paragraph:
-              "Put your credit cards away while repaying debt. Try to avoid taking on new loans during the repayment period.",
-          },
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "If you're struggling with repayments, talk to your lender. Many offer hardship programs, lower interest rates, or temporary payment pauses.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Debt doesn’t disappear overnight — but with consistent effort and smart planning, you can eliminate it and improve your financial health.",
-          "Start with small steps, stay disciplined, and celebrate every milestone along the way. A debt-free life is within reach.",
-        ],
-      },
-    ],
-  },
-  {
-    id: 7,
-    title: "Saving for Retirement: Where to Start?",
-    slug: "saving-for-retirement",
-    summary:
-      "Explore the basics of retirement planning and discover how to begin saving early to secure your future.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Retirement may seem far away, but the earlier you start planning, the more financially secure your future will be.",
-          "In this article, we’ll guide you through the basics of retirement saving and help you take your first steps.",
-        ],
-      },
-      {
-        heading: "Why Saving for Retirement Is Important",
-        bulletPoints: [
-          "You won’t work forever — savings ensure income after retirement",
-          "Social security or pension might not be enough",
-          "Compound interest grows your money over time",
-          "Peace of mind knowing you’re financially prepared",
-        ],
-      },
-      {
-        heading: "How Much Should You Save?",
-        paragraphs: [
-          "A general rule is to save at least 10–15% of your income annually for retirement.",
-          "Use retirement calculators online to estimate how much you’ll need based on your goals, age, and lifestyle.",
-        ],
-      },
-      {
-        heading: "Where to Start Saving",
-        subsections: [
-          {
-            title: "1. Employer-Sponsored Plans (Like 401(k))",
-            paragraph:
-              "If your employer offers a retirement plan, join it — especially if they match contributions. It's essentially free money.",
-          },
-          {
-            title: "2. Individual Retirement Accounts (IRAs)",
-            paragraph:
-              "Open a Traditional or Roth IRA. These accounts offer tax advantages and are easy to set up through most banks or brokerages.",
-          },
-          {
-            title: "3. Automate Your Savings",
-            paragraph:
-              "Set up automatic monthly transfers to your retirement account. This ensures consistent savings and removes the temptation to spend.",
-          },
-        ],
-      },
-      {
-        heading: "Tips to Boost Retirement Savings",
-        bulletPoints: [
-          "Increase contributions when you get a raise",
-          "Avoid withdrawing early — penalties can reduce your savings",
-          "Review your investments and rebalance yearly",
-          "Start small if needed, but start now",
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Even saving $100 a month starting in your 20s can grow into a significant nest egg by the time you retire. The earlier you start, the more time your money has to grow.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Retirement saving doesn’t need to be complex. Start with what you can, be consistent, and increase your savings as your income grows.",
-          "Your future self will thank you for the steps you take today. Begin now, and enjoy peace of mind later.",
-        ],
-      },
-    ],
-  },
-  {
-    id: 8,
-    title: "Tips for Reducing Monthly Expenses",
-    slug: "reducing-monthly-expenses",
-    summary:
-      "Learn how to cut unnecessary costs and save more every month with these practical, easy-to-follow expense-reducing strategies.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Monthly expenses can quickly add up and leave little room for savings. The good news? You can often reduce spending without sacrificing your lifestyle.",
-          "In this guide, we’ll share practical tips to help you cut costs and keep more money in your pocket.",
-        ],
-      },
-      {
-        heading: "Track Your Spending",
-        paragraphs: [
-          "Before you can reduce expenses, you need to know where your money is going. Use a spreadsheet, app, or notebook to track your daily, weekly, and monthly spending.",
-          "Once you have a clear picture, look for patterns and areas you can adjust.",
-        ],
-      },
-      {
-        heading: "Cut Unnecessary Subscriptions",
-        paragraphs: [
-          "Streaming services, gym memberships, magazines — cancel the ones you barely use.",
-          "Review your bank statements and identify auto-renewing services you might have forgotten about.",
-        ],
-      },
-      {
-        heading: "Lower Utility Bills",
-        bulletPoints: [
-          "Turn off lights and unplug devices when not in use",
-          "Switch to energy-efficient bulbs and appliances",
-          "Use fans instead of air conditioning when possible",
-          "Fix water leaks and use low-flow fixtures",
-        ],
-      },
-      {
-        heading: "Shop Smarter",
-        subsections: [
-          {
-            title: "1. Create a Grocery List",
-            paragraph:
-              "Avoid impulse buys by sticking to a written grocery list. Plan meals ahead and buy only what you need.",
-          },
-          {
-            title: "2. Buy in Bulk",
-            paragraph:
-              "For non-perishable items, bulk buying can save you money in the long run.",
-          },
-          {
-            title: "3. Use Coupons and Cashback Apps",
-            paragraph:
-              "Look for discounts, coupons, and cashback opportunities online and in-store.",
-          },
-        ],
-      },
-      {
-        heading: "Rethink Transportation",
-        paragraphs: [
-          "Carpool, use public transport, or walk when possible to save on fuel and parking.",
-          "Consider refinancing your car loan or shopping around for cheaper car insurance.",
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Try a 'no-spend' challenge for a week or a month. Limit purchases to essentials only — it’s a great way to reset spending habits and see where you can live with less.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Reducing monthly expenses doesn’t mean living without joy — it means spending more intentionally.",
-          "Start with small changes, and over time you’ll see a big impact on your savings and financial peace of mind.",
-        ],
-      },
-    ],
-  },
-  {
-    id: 9,
-    title: "The Importance of Having a Will and Estate Planning",
-    slug: "importance-of-will-and-estate-planning",
-    summary:
-      "Learn why creating a will and having a proper estate plan is essential for protecting your assets and securing your family's future.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Many people put off writing a will, thinking it's only for the elderly or wealthy. But estate planning is important for everyone, regardless of age or income.",
-          "Having a clear plan in place ensures your wishes are respected and your loved ones are taken care of when you're no longer around.",
-        ],
-      },
-      {
-        heading: "What is a Will?",
-        paragraphs: [
-          "A will is a legal document that outlines how your assets and belongings should be distributed after your death. It can also name guardians for minor children and specify final wishes.",
-          "Without a will, the distribution of your estate is left to state laws — which may not align with your preferences.",
-        ],
-      },
-      {
-        heading: "Why Estate Planning Matters",
-        bulletPoints: [
-          "Protects your family and beneficiaries",
-          "Minimizes legal complications and disputes",
-          "Reduces taxes and legal costs",
-          "Ensures your assets go to the right people",
-          "Allows you to appoint trusted individuals as guardians or executors",
-        ],
-      },
-      {
-        heading: "Components of a Good Estate Plan",
-        subsections: [
-          {
-            title: "1. Last Will and Testament",
-            paragraph:
-              "Outlines how your property will be distributed and who will care for minor children.",
-          },
-          {
-            title: "2. Power of Attorney",
-            paragraph:
-              "Gives someone the authority to manage your financial affairs if you're unable to do so.",
-          },
-          {
-            title: "3. Healthcare Directive",
-            paragraph:
-              "Details your medical wishes and names someone to make health decisions on your behalf.",
-          },
-          {
-            title: "4. Beneficiary Designations",
-            paragraph:
-              "Ensure your insurance policies and retirement accounts are up-to-date with the correct beneficiaries.",
-          },
-        ],
-      },
-      {
-        heading: "Common Misconceptions",
-        paragraphs: [
-          "Many believe estate planning is too expensive or only needed later in life. In reality, it can be simple, affordable, and beneficial at any stage.",
-          "Even if you don’t own a lot, your loved ones will benefit from having clear instructions after your passing.",
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Review your estate plan every few years or after major life events like marriage, divorce, or the birth of a child. Keep your documents updated.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Having a will and estate plan isn’t about preparing for death — it’s about providing peace of mind and protecting those you love.",
-          "Take the time now to organize your affairs. Your future self — and your family — will be grateful you did.",
-        ],
-      },
-    ],
-  },
-  {
-    id: 10,
-    title: "How to Teach Kids About Money Management",
-    slug: "teach-kids-money-management",
-    summary:
-      "Help your children build smart financial habits from an early age with these fun and practical money lessons.",
-    sections: [
-      {
-        heading: "Introduction",
-        paragraphs: [
-          "Teaching kids about money isn’t just about coins and dollars — it’s about building habits that can last a lifetime.",
-          "The earlier children learn the value of saving, budgeting, and spending wisely, the more confident and financially secure they’ll be as adults.",
-        ],
-      },
-      {
-        heading: "Why Start Early?",
-        paragraphs: [
-          "Children absorb lessons quickly. Introducing money concepts early gives them time to practice and understand how finances work in real life.",
-          "Simple activities like managing allowance or setting savings goals can be powerful learning tools.",
-        ],
-      },
-      {
-        heading: "Age-Appropriate Money Lessons",
-        subsections: [
-          {
-            title: "1. Ages 3–6: Understand the Basics",
-            paragraph:
-              "Use play money, toy cash registers, or simple shopping games to introduce the idea of exchanging money for goods.",
-          },
-          {
-            title: "2. Ages 7–10: Start Saving",
-            paragraph:
-              "Give your child a small allowance and introduce jars or envelopes labeled ‘Spend’, ‘Save’, and ‘Share’. Help them divide their money and track their goals.",
-          },
-          {
-            title: "3. Ages 11–14: Budgeting and Planning",
-            paragraph:
-              "Teach them how to plan purchases, compare prices, and create basic budgets. Apps designed for kids can also help visualize their spending.",
-          },
-          {
-            title: "4. Ages 15–18: Real-World Practice",
-            paragraph:
-              "Introduce them to bank accounts, debit cards, and saving for bigger goals. Talk about student loans, part-time jobs, and responsible use of money.",
-          },
-        ],
-      },
-      {
-        heading: "Tips for Parents",
-        bulletPoints: [
-          "Lead by example — let your kids see you budget and save.",
-          "Make money conversations normal and age-appropriate.",
-          "Celebrate when they reach savings goals to encourage consistency.",
-          "Avoid giving money as a reward for every task — teach responsibility.",
-          "Help them understand needs vs. wants through everyday decisions.",
-        ],
-      },
-      {
-        heading: "Bonus Tip",
-        paragraph:
-          "Encourage older kids to track their expenses using a simple notebook or app. Reflection is a powerful tool for learning.",
-      },
-      {
-        heading: "Final Thoughts",
-        paragraphs: [
-          "Money management is a life skill, and childhood is the perfect time to begin.",
-          "By teaching your kids financial responsibility now, you’re setting them up for a brighter, more secure future.",
-        ],
-      },
-    ],
-  },
+  // {
+  //   id: 4,
+  //   title: "The Basics of Investing in the Stock Market",
+  //   slug: "investing-in-stock-market",
+  //   summary:
+  //     "A beginner's guide to understanding the stock market, how it works, and how to start investing safely.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "The stock market can seem intimidating at first, but it’s one of the most effective ways to build wealth over time.",
+  //         "By learning the basics, you can make smarter investment choices and grow your money steadily.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "What is the Stock Market?",
+  //       paragraphs: [
+  //         "The stock market is where people buy and sell shares of companies. When you invest in a stock, you’re buying a piece of that company.",
+  //         "As the company grows and earns profits, the value of your stock can increase, and you may also earn dividends (a share of the profits).",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why Invest in Stocks?",
+  //       bulletPoints: [
+  //         "Potential for long-term growth",
+  //         "Outpaces inflation over time",
+  //         "Earn dividends for passive income",
+  //         "Build wealth for retirement or future goals",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Risks to Know",
+  //       paragraphs: [
+  //         "Stock prices can go up and down daily. It's normal to see short-term changes, but the market generally grows over the long term.",
+  //         "Investing always involves risk, so it’s important to diversify and avoid emotional decisions.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "How to Start Investing",
+  //       subsections: [
+  //         {
+  //           title: "1. Learn the Basics",
+  //           paragraph:
+  //             "Understand terms like stocks, dividends, mutual funds, ETFs, and risk tolerance. This will help you make informed decisions.",
+  //         },
+  //         {
+  //           title: "2. Open a Brokerage Account",
+  //           paragraph:
+  //             "Choose a reputable platform (like Fidelity, Robinhood, or Zerodha) where you can buy and sell stocks easily.",
+  //         },
+  //         {
+  //           title: "3. Start Small",
+  //           paragraph:
+  //             "You don’t need a lot of money to begin. Start with small amounts and increase gradually as you learn.",
+  //         },
+  //         {
+  //           title: "4. Diversify Your Portfolio",
+  //           paragraph:
+  //             "Don't put all your money into one stock. Spread your investments across different sectors and types of assets.",
+  //         },
+  //         {
+  //           title: "5. Think Long-Term",
+  //           paragraph:
+  //             "Avoid panic selling during market drops. Stay invested for years, not weeks — long-term investing tends to be more profitable.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Consider investing through index funds or ETFs if you want a low-cost and diversified way to enter the stock market.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Investing in the stock market is a journey, not a sprint. With time, knowledge, and discipline, you can build a strong financial future.",
+  //         "Start today with what you have — and let your money grow while you focus on learning more.",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   title: "How to Set Financial Goals and Achieve Them",
+  //   slug: "set-financial-goals",
+  //   summary:
+  //     "Learn how to set smart financial goals and create a clear plan to reach them step by step.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Having clear financial goals gives your money a purpose. Whether it’s saving for a car, a home, or early retirement — goals help you stay focused and motivated.",
+  //         "In this article, you’ll learn how to define your financial goals and take actionable steps to achieve them.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why Setting Goals Matters",
+  //       bulletPoints: [
+  //         "Helps prioritize spending",
+  //         "Keeps you motivated",
+  //         "Provides a sense of direction",
+  //         "Makes it easier to track progress",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Types of Financial Goals",
+  //       paragraphs: [
+  //         "Short-term goals (within 1 year): e.g., building an emergency fund, paying off a credit card.",
+  //         "Medium-term goals (1–5 years): e.g., buying a car, saving for a wedding.",
+  //         "Long-term goals (5+ years): e.g., buying a house, retirement savings, children’s education.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "How to Set SMART Financial Goals",
+  //       subsections: [
+  //         {
+  //           title: "1. Specific",
+  //           paragraph:
+  //             "Define exactly what you want to achieve. For example, instead of 'I want to save', say 'I want to save $5,000 for a new laptop.'",
+  //         },
+  //         {
+  //           title: "2. Measurable",
+  //           paragraph:
+  //             "Track your progress. Break your goal into monthly or weekly targets so you can monitor success.",
+  //         },
+  //         {
+  //           title: "3. Achievable",
+  //           paragraph:
+  //             "Make sure your goal is realistic based on your current income and expenses.",
+  //         },
+  //         {
+  //           title: "4. Relevant",
+  //           paragraph:
+  //             "Your goal should align with your personal values and priorities.",
+  //         },
+  //         {
+  //           title: "5. Time-bound",
+  //           paragraph:
+  //             "Set a deadline. Goals without a timeline are easy to postpone.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Steps to Achieve Your Financial Goals",
+  //       subsections: [
+  //         {
+  //           title: "1. Write Your Goals Down",
+  //           paragraph:
+  //             "Documenting your goals makes them real and reminds you to stay committed.",
+  //         },
+  //         {
+  //           title: "2. Create a Budget",
+  //           paragraph:
+  //             "Plan your income and expenses around your goals. Make saving a part of your monthly plan.",
+  //         },
+  //         {
+  //           title: "3. Automate Savings",
+  //           paragraph:
+  //             "Set up automatic transfers to a dedicated savings account to avoid temptation.",
+  //         },
+  //         {
+  //           title: "4. Review Progress Regularly",
+  //           paragraph:
+  //             "Check your progress monthly and adjust if needed. Celebrate small wins.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Use visual tools like goal trackers or saving jars to stay motivated and track your progress in real time.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Setting financial goals gives your money meaning and direction. With a clear plan, you’re more likely to succeed and feel in control.",
+  //         "Start with one small goal today — the results will build your confidence to tackle bigger ones tomorrow.",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   title: "Managing Debt: Strategies for Paying Off Loans",
+  //   slug: "managing-debt",
+  //   summary:
+  //     "Learn effective strategies to reduce and eliminate debt, and take control of your financial future.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Debt can feel overwhelming, but with the right strategy, you can take back control and start your journey to financial freedom.",
+  //         "In this guide, we’ll break down simple and effective ways to manage and pay off your debt — whether it’s a student loan, credit card, or personal loan.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why It’s Important to Manage Debt",
+  //       bulletPoints: [
+  //         "Reduces financial stress",
+  //         "Improves credit score",
+  //         "Saves money on interest",
+  //         "Gives you freedom to invest in the future",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Common Types of Debt",
+  //       paragraphs: [
+  //         "Credit card debt: High-interest revolving balances that can quickly grow.",
+  //         "Student loans: Education-related loans with fixed or variable interest rates.",
+  //         "Personal loans: Unsecured loans used for various personal expenses.",
+  //         "Auto or home loans: Secured loans with specific terms and collateral.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Effective Debt Management Strategies",
+  //       subsections: [
+  //         {
+  //           title: "1. List All Your Debts",
+  //           paragraph:
+  //             "Start by writing down every debt you owe, including total balance, interest rate, and minimum monthly payment.",
+  //         },
+  //         {
+  //           title: "2. Create a Monthly Debt Repayment Budget",
+  //           paragraph:
+  //             "Allocate a portion of your income strictly for debt payments. Cut unnecessary expenses to free up more money for repayments.",
+  //         },
+  //         {
+  //           title: "3. Use the Snowball Method",
+  //           paragraph:
+  //             "Pay off the smallest debt first while making minimum payments on others. This builds momentum and motivation as you eliminate smaller balances.",
+  //         },
+  //         {
+  //           title: "4. Try the Avalanche Method",
+  //           paragraph:
+  //             "Focus on debts with the highest interest rates first. This approach saves more money in the long run.",
+  //         },
+  //         {
+  //           title: "5. Consider Debt Consolidation",
+  //           paragraph:
+  //             "If you have multiple loans, consolidating them into one loan with a lower interest rate can simplify payments and reduce costs.",
+  //         },
+  //         {
+  //           title: "6. Avoid New Debt",
+  //           paragraph:
+  //             "Put your credit cards away while repaying debt. Try to avoid taking on new loans during the repayment period.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "If you're struggling with repayments, talk to your lender. Many offer hardship programs, lower interest rates, or temporary payment pauses.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Debt doesn’t disappear overnight — but with consistent effort and smart planning, you can eliminate it and improve your financial health.",
+  //         "Start with small steps, stay disciplined, and celebrate every milestone along the way. A debt-free life is within reach.",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   title: "Saving for Retirement: Where to Start?",
+  //   slug: "saving-for-retirement",
+  //   summary:
+  //     "Explore the basics of retirement planning and discover how to begin saving early to secure your future.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Retirement may seem far away, but the earlier you start planning, the more financially secure your future will be.",
+  //         "In this article, we’ll guide you through the basics of retirement saving and help you take your first steps.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why Saving for Retirement Is Important",
+  //       bulletPoints: [
+  //         "You won’t work forever — savings ensure income after retirement",
+  //         "Social security or pension might not be enough",
+  //         "Compound interest grows your money over time",
+  //         "Peace of mind knowing you’re financially prepared",
+  //       ],
+  //     },
+  //     {
+  //       heading: "How Much Should You Save?",
+  //       paragraphs: [
+  //         "A general rule is to save at least 10–15% of your income annually for retirement.",
+  //         "Use retirement calculators online to estimate how much you’ll need based on your goals, age, and lifestyle.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Where to Start Saving",
+  //       subsections: [
+  //         {
+  //           title: "1. Employer-Sponsored Plans (Like 401(k))",
+  //           paragraph:
+  //             "If your employer offers a retirement plan, join it — especially if they match contributions. It's essentially free money.",
+  //         },
+  //         {
+  //           title: "2. Individual Retirement Accounts (IRAs)",
+  //           paragraph:
+  //             "Open a Traditional or Roth IRA. These accounts offer tax advantages and are easy to set up through most banks or brokerages.",
+  //         },
+  //         {
+  //           title: "3. Automate Your Savings",
+  //           paragraph:
+  //             "Set up automatic monthly transfers to your retirement account. This ensures consistent savings and removes the temptation to spend.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Tips to Boost Retirement Savings",
+  //       bulletPoints: [
+  //         "Increase contributions when you get a raise",
+  //         "Avoid withdrawing early — penalties can reduce your savings",
+  //         "Review your investments and rebalance yearly",
+  //         "Start small if needed, but start now",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Even saving $100 a month starting in your 20s can grow into a significant nest egg by the time you retire. The earlier you start, the more time your money has to grow.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Retirement saving doesn’t need to be complex. Start with what you can, be consistent, and increase your savings as your income grows.",
+  //         "Your future self will thank you for the steps you take today. Begin now, and enjoy peace of mind later.",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   title: "Tips for Reducing Monthly Expenses",
+  //   slug: "reducing-monthly-expenses",
+  //   summary:
+  //     "Learn how to cut unnecessary costs and save more every month with these practical, easy-to-follow expense-reducing strategies.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Monthly expenses can quickly add up and leave little room for savings. The good news? You can often reduce spending without sacrificing your lifestyle.",
+  //         "In this guide, we’ll share practical tips to help you cut costs and keep more money in your pocket.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Track Your Spending",
+  //       paragraphs: [
+  //         "Before you can reduce expenses, you need to know where your money is going. Use a spreadsheet, app, or notebook to track your daily, weekly, and monthly spending.",
+  //         "Once you have a clear picture, look for patterns and areas you can adjust.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Cut Unnecessary Subscriptions",
+  //       paragraphs: [
+  //         "Streaming services, gym memberships, magazines — cancel the ones you barely use.",
+  //         "Review your bank statements and identify auto-renewing services you might have forgotten about.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Lower Utility Bills",
+  //       bulletPoints: [
+  //         "Turn off lights and unplug devices when not in use",
+  //         "Switch to energy-efficient bulbs and appliances",
+  //         "Use fans instead of air conditioning when possible",
+  //         "Fix water leaks and use low-flow fixtures",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Shop Smarter",
+  //       subsections: [
+  //         {
+  //           title: "1. Create a Grocery List",
+  //           paragraph:
+  //             "Avoid impulse buys by sticking to a written grocery list. Plan meals ahead and buy only what you need.",
+  //         },
+  //         {
+  //           title: "2. Buy in Bulk",
+  //           paragraph:
+  //             "For non-perishable items, bulk buying can save you money in the long run.",
+  //         },
+  //         {
+  //           title: "3. Use Coupons and Cashback Apps",
+  //           paragraph:
+  //             "Look for discounts, coupons, and cashback opportunities online and in-store.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Rethink Transportation",
+  //       paragraphs: [
+  //         "Carpool, use public transport, or walk when possible to save on fuel and parking.",
+  //         "Consider refinancing your car loan or shopping around for cheaper car insurance.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Try a 'no-spend' challenge for a week or a month. Limit purchases to essentials only — it’s a great way to reset spending habits and see where you can live with less.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Reducing monthly expenses doesn’t mean living without joy — it means spending more intentionally.",
+  //         "Start with small changes, and over time you’ll see a big impact on your savings and financial peace of mind.",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 9,
+  //   title: "The Importance of Having a Will and Estate Planning",
+  //   slug: "importance-of-will-and-estate-planning",
+  //   summary:
+  //     "Learn why creating a will and having a proper estate plan is essential for protecting your assets and securing your family's future.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Many people put off writing a will, thinking it's only for the elderly or wealthy. But estate planning is important for everyone, regardless of age or income.",
+  //         "Having a clear plan in place ensures your wishes are respected and your loved ones are taken care of when you're no longer around.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "What is a Will?",
+  //       paragraphs: [
+  //         "A will is a legal document that outlines how your assets and belongings should be distributed after your death. It can also name guardians for minor children and specify final wishes.",
+  //         "Without a will, the distribution of your estate is left to state laws — which may not align with your preferences.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why Estate Planning Matters",
+  //       bulletPoints: [
+  //         "Protects your family and beneficiaries",
+  //         "Minimizes legal complications and disputes",
+  //         "Reduces taxes and legal costs",
+  //         "Ensures your assets go to the right people",
+  //         "Allows you to appoint trusted individuals as guardians or executors",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Components of a Good Estate Plan",
+  //       subsections: [
+  //         {
+  //           title: "1. Last Will and Testament",
+  //           paragraph:
+  //             "Outlines how your property will be distributed and who will care for minor children.",
+  //         },
+  //         {
+  //           title: "2. Power of Attorney",
+  //           paragraph:
+  //             "Gives someone the authority to manage your financial affairs if you're unable to do so.",
+  //         },
+  //         {
+  //           title: "3. Healthcare Directive",
+  //           paragraph:
+  //             "Details your medical wishes and names someone to make health decisions on your behalf.",
+  //         },
+  //         {
+  //           title: "4. Beneficiary Designations",
+  //           paragraph:
+  //             "Ensure your insurance policies and retirement accounts are up-to-date with the correct beneficiaries.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Common Misconceptions",
+  //       paragraphs: [
+  //         "Many believe estate planning is too expensive or only needed later in life. In reality, it can be simple, affordable, and beneficial at any stage.",
+  //         "Even if you don’t own a lot, your loved ones will benefit from having clear instructions after your passing.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Review your estate plan every few years or after major life events like marriage, divorce, or the birth of a child. Keep your documents updated.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Having a will and estate plan isn’t about preparing for death — it’s about providing peace of mind and protecting those you love.",
+  //         "Take the time now to organize your affairs. Your future self — and your family — will be grateful you did.",
+  //       ],
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 10,
+  //   title: "How to Teach Kids About Money Management",
+  //   slug: "teach-kids-money-management",
+  //   summary:
+  //     "Help your children build smart financial habits from an early age with these fun and practical money lessons.",
+  //   sections: [
+  //     {
+  //       heading: "Introduction",
+  //       paragraphs: [
+  //         "Teaching kids about money isn’t just about coins and dollars — it’s about building habits that can last a lifetime.",
+  //         "The earlier children learn the value of saving, budgeting, and spending wisely, the more confident and financially secure they’ll be as adults.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Why Start Early?",
+  //       paragraphs: [
+  //         "Children absorb lessons quickly. Introducing money concepts early gives them time to practice and understand how finances work in real life.",
+  //         "Simple activities like managing allowance or setting savings goals can be powerful learning tools.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Age-Appropriate Money Lessons",
+  //       subsections: [
+  //         {
+  //           title: "1. Ages 3–6: Understand the Basics",
+  //           paragraph:
+  //             "Use play money, toy cash registers, or simple shopping games to introduce the idea of exchanging money for goods.",
+  //         },
+  //         {
+  //           title: "2. Ages 7–10: Start Saving",
+  //           paragraph:
+  //             "Give your child a small allowance and introduce jars or envelopes labeled ‘Spend’, ‘Save’, and ‘Share’. Help them divide their money and track their goals.",
+  //         },
+  //         {
+  //           title: "3. Ages 11–14: Budgeting and Planning",
+  //           paragraph:
+  //             "Teach them how to plan purchases, compare prices, and create basic budgets. Apps designed for kids can also help visualize their spending.",
+  //         },
+  //         {
+  //           title: "4. Ages 15–18: Real-World Practice",
+  //           paragraph:
+  //             "Introduce them to bank accounts, debit cards, and saving for bigger goals. Talk about student loans, part-time jobs, and responsible use of money.",
+  //         },
+  //       ],
+  //     },
+  //     {
+  //       heading: "Tips for Parents",
+  //       bulletPoints: [
+  //         "Lead by example — let your kids see you budget and save.",
+  //         "Make money conversations normal and age-appropriate.",
+  //         "Celebrate when they reach savings goals to encourage consistency.",
+  //         "Avoid giving money as a reward for every task — teach responsibility.",
+  //         "Help them understand needs vs. wants through everyday decisions.",
+  //       ],
+  //     },
+  //     {
+  //       heading: "Bonus Tip",
+  //       paragraph:
+  //         "Encourage older kids to track their expenses using a simple notebook or app. Reflection is a powerful tool for learning.",
+  //     },
+  //     {
+  //       heading: "Final Thoughts",
+  //       paragraphs: [
+  //         "Money management is a life skill, and childhood is the perfect time to begin.",
+  //         "By teaching your kids financial responsibility now, you’re setting them up for a brighter, more secure future.",
+  //       ],
+  //     },
+  //   ],
+  // },
   // {
   //   id: 11,
   //   title: "How to Start Investing with Little Money",
