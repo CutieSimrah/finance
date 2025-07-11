@@ -97,7 +97,7 @@ function renderArticles() {
       <h2>${article.title}</h2>
       <div class="slug">${article.slug}</div>
       <div class="summary">${article.summary}</div>
-      ${index === 0 ? '' : ""}
+      ${index === 0 ? scrollHintHTML : ""}
     `;
 
     article.sections.forEach(sec => {
@@ -121,9 +121,9 @@ function renderArticles() {
       if (sec.paragraph) html += `<p>${sec.paragraph}</p>`;
     });
 
-    // if (index === 0) {
-    //   html += videoPlayerHTML;
-    // }
+    if (index === 0) {
+      html += videoPlayerHTML;
+    }
 
     section.innerHTML = html;
     container.appendChild(section);
