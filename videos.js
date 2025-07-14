@@ -99,4 +99,24 @@ const videos = [
           title: "Video 25",
           link: "https://video.twimg.com/ext_tw_video/1876793702674530304/pu/vid/avc1/720x960/aYRZ5eiTW5hqN06U.mp4",
         },
+        {
+          title: "Video 26",
+          link: "https://video.twimg.com/amplify_video/1846349853728919552/vid/avc1/480x480/1kdm2y5-Oa31Cr36.mp4",
+        },
+        {
+          title: "Video 27",
+          link: "https://video.twimg.com/ext_tw_video/1825380538213089280/pu/vid/avc1/720x720/_S4vEp6i4_txg3fh.mp4",
+        },
+        {
+          title: "Video 28",
+          link: "https://video.twimg.com/amplify_video/1844219931866562563/vid/avc1/640x360/xFmk6X1TUSPaxAOq.mp4",
+        },
+        {
+          title: "Video 29",
+          link: "https://video.twimg.com/amplify_video/1818519581327233024/vid/avc1/640x360/Z-ebDC-VwjYeS8ou.mp4",
+        },
+        {
+          title: "Video 30",
+          link: "https://video.twimg.com/ext_tw_video/1784190966133411840/pu/vid/avc1/1280x720/kWZu6HU-o5haUpFv.mp4",
+        },
       ];
