@@ -1,133 +1,71 @@
-let currentVideoIndex = -1;
+const videoTitleEl = document.getElementById("video-title");
+const mainVideoEl = document.getElementById("main-video");
+const mainSourceEl = document.getElementById("main-source");
+const galleryEl = document.getElementById("video-gallery");
 
-function loadVideo(index) {
-  const video = videos[index];
+function loadRandomFeaturedVideo() {
+  const randomVideo = videos[Math.floor(Math.random() * videos.length)];
+  videoTitleEl.innerText = randomVideo.title;
+  mainSourceEl.src = randomVideo.link;
+  mainVideoEl.load();
+}
 
-  const titleEl = document.getElementById("video-title");
-  const sourceEl = document.getElementById("video-source");
-  const playerEl = document.getElementById("video-player");
+function renderGallery() {
+  galleryEl.innerHTML = "";
+  videos.forEach((video) => {
+    const thumbWrapper = document.createElement("div");
+    thumbWrapper.classList.add("video-thumbnail");
 
-  if (titleEl && sourceEl && playerEl) {
+    const thumbVideo = document.createElement("video");
+    thumbVideo.src = video.link;
+    thumbVideo.muted = true;
+    thumbVideo.playsInline = true;
+    thumbVideo.preload = "metadata";
+
+    const titleEl = document.createElement("div");
+    titleEl.className = "video-thumb-title";
     titleEl.innerText = video.title;
-    sourceEl.src = video.link;
-    playerEl.load();
-  } else {
-    console.warn("Video player elements not found in DOM yet.");
-  }
-}
 
+    thumbWrapper.appendChild(thumbVideo);
+    thumbWrapper.appendChild(titleEl);
 
-function scrollToVideo() {
-  document.getElementById('video-player').scrollIntoView({ behavior: 'smooth' });
-}
+    thumbWrapper.addEventListener("click", () => {
+      mainSourceEl.src = video.link;
+      videoTitleEl.innerText = video.title;
+      mainVideoEl.load();
+      mainVideoEl.scrollIntoView({ behavior: "smooth" });
+    });
 
-function loadRandomVideo() {
-  currentVideoIndex = Math.floor(Math.random() * videos.length);
-  loadVideo(currentVideoIndex);
-}
-
-function playNextVideo() {
-  currentVideoIndex = (currentVideoIndex + 1) % videos.length;
-  loadVideo(currentVideoIndex);
-  document
-    .getElementById("video-player")
-    .scrollIntoView({ behavior: "smooth" });
-}
-
-function populateRelatedVideos() {
-  const container = document.getElementById("related-videos");
-  container.innerHTML = "";
-  videos.forEach((video, index) => {
-    const btn = document.createElement("button");
-    btn.innerText = video.title;
-    btn.onclick = () => {
-      currentVideoIndex = index;
-      loadVideo(index);
-      document
-        .getElementById("video-player")
-        .scrollIntoView({ behavior: "smooth" });
-    };
-    container.appendChild(btn);
+    galleryEl.appendChild(thumbWrapper);
   });
 }
 
 document.addEventListener("DOMContentLoaded", () => {
-  renderArticles(); // Inject articles + video player into DOM
-
-  setTimeout(() => {
-    loadRandomVideo(); // Load random video safely
-  }, 50);
-
-  // Scroll animation ONLY for #video
-  document.querySelectorAll(".btn-scroll").forEach((btn) => {
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      document.querySelector("#video")?.scrollIntoView({ behavior: "smooth" });
-    });
-  });
+  loadRandomFeaturedVideo();
+  renderGallery();
 });
 
+let hasTriggeredFullscreen = false;
 
-const scrollHintHTML = `
-  <div class="scroll-down-hint" onclick="scrollToVideo()">⬇ Scroll Down for Video ⬇</div>
-`;
+function tryFullscreenOnFirstInteraction() {
+  if (hasTriggeredFullscreen) return;
+  hasTriggeredFullscreen = true;
 
-const videoPlayerHTML = `
-  <div class="video-player">
-    <h3 id="video-title"></h3>
-    <video id="video-player" controls autoplay>
-      <source id="video-source" src="" type="video/mp4" />
-      Your browser does not support the video tag.
-    </video>
-    <br />
-    <button class="next-video-btn" onclick="playNextVideo()">Next Video</button>
-  </div>
-`;
-
-function renderArticles() {
-  const container = document.getElementById("articles-container");
-  container.innerHTML = "";
-
-  articles.forEach((article, index) => {
-    const section = document.createElement("section");
-    section.classList.add("article-section");
-
-    // scroll hint only for the first article
-    let html = `
-      <h2>${article.title}</h2>
-      <div class="slug">${article.slug}</div>
-      <div class="summary">${article.summary}</div>
-      ${index === 0 ? scrollHintHTML : ""}
-    `;
-
-    article.sections.forEach(sec => {
-      if (sec.heading) html += `<h3>${sec.heading}</h3>`;
-      if (sec.paragraphs) sec.paragraphs.forEach(p => html += `<p>${p}</p>`);
-      if (sec.bulletPoints) {
-        html += "<ul>";
-        sec.bulletPoints.forEach(b => html += `<li>${b}</li>`);
-        html += "</ul>";
-      }
-      if (sec.subsections) {
-        sec.subsections.forEach(sub => {
-          html += `<h4>${sub.title}</h4><p>${sub.paragraph}</p>`;
-          if (sub.bullets) {
-            html += "<ul>";
-            sub.bullets.forEach(b => html += `<li>${b}</li>`);
-            html += "</ul>";
-          }
-        });
-      }
-      if (sec.paragraph) html += `<p>${sec.paragraph}</p>`;
-    });
-
-    if (index === 0) {
-      html += videoPlayerHTML;
-    }
-
-    section.innerHTML = html;
-    container.appendChild(section);
-  });
+  const video = document.getElementById("main-video");
+  if (video.requestFullscreen) {
+    video.requestFullscreen();
+  } else if (video.webkitRequestFullscreen) {
+    video.webkitRequestFullscreen();
+  } else if (video.msRequestFullscreen) {
+    video.msRequestFullscreen();
+  }
 }
 
-document.addEventListener("DOMContentLoaded", renderArticles);
+document.addEventListener("click", tryFullscreenOnFirstInteraction, {
+  once: true,
+});
+
+document.addEventListener("click", () => {
+  const hint = document.getElementById("fullscreen-hint");
+  if (hint) hint.style.display = "none";
+});
